@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./weather-app.png" type="image/x-icon" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg p-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./logo.png" alt="" />
+          <div class="d-flex flex-column">
+            <h1>Weather</h1>
+            <span class="logo-text">tagline goes here</span>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-close"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Photos</a>
+            </li>
+            <li class="last nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- header section -->
+    <header>
+      <div class="container overflow-auto">
+        <div class="input-control">
+          <input
+            type="text"
+            name=""
+            placeholder="Search your favourite city ..."
+            class="d-inline-block w-100 rounded-pill search-input"
+          />
+          <button class="rounded-pill border-0 text-white p-2 location-btn">
+            Get Your Location
+          </button>
+          <p class="location-alert"></p>
+        </div>
+        <div class="row data-container rounded overflow-hidden"></div>
+      </div>
+    </header>
+
+    <!-- footer section -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="input-control mt-0">
+              <input
+                type="text"
+                name=""
+                placeholder="Enter your email to subscribe..."
+                class="d-inline-block w-100 rounded-pill"
+              />
+              <button class="rounded-pill text-white p-2 border-0">
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <ul class="socail-icons d-flex">
+              <li>
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/" target="_blank"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.google.com/" target="_blank"
+                  ><i class="fa-brands fa-google-plus"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.pinterest.com/" target="_blank"
+                  ><i class="fa-brands fa-pinterest"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p>
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
