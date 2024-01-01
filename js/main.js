@@ -43,7 +43,7 @@ searchInput.addEventListener("input", function () {
 });
 
 const baseURL =
-  "http://api.weatherapi.com/v1/forecast.json?key=29adf76e7d8a4149971222823232812";
+  "https://api.weatherapi.com/v1/forecast.json?key=29adf76e7d8a4149971222823232812";
 
 async function getWeatherData(search = "barce") {
   const result = await fetch(`${baseURL}&q=${search}&days=3&aqi=no&alerts=no`);
