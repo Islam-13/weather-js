@@ -7,6 +7,9 @@ span {
   display: block;
 }
 /* navbar */
+.navbar {
+  background-color: #1e202b;
+}
 h1 {
   font-size: 16px;
   margin-bottom: 3px;
@@ -90,6 +93,7 @@ header {
   min-height: 100vh;
   background: url(../banner.png);
   background-repeat: no-repeat;
+  margin-top: 65px;
 }
 .input-control {
   position: relative;
